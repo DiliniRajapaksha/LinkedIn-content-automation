@@ -6,7 +6,6 @@ Automate your LinkedIn content posting using Notion as a content management syst
 
 - 📅 Schedule posts using Notion's built-in date fields
 - 📝 Support for text-only and image posts
-- 🌏 Timezone-aware scheduling (defaults to Australia/Brisbane)
 - 🔄 Automatic status updates in Notion after posting
 - 🔒 Secure credential management
 - 🤖 Ready for GitHub Actions deployment
@@ -22,11 +21,7 @@ Automate your LinkedIn content posting using Notion as a content management syst
 
 ### 1. Notion Setup
 
-1. Create a new Notion database with the following properties:
-   - `Status` (Status type): For tracking post status (e.g., "Scheduled", "Posted")
-   - `Schedule Date` (Date): When to publish the post
-   - `LinkedIn Post` (Text): The content to post
-   - `Image` (Files & Media): Optional images to include
+1. Duplicate this Notion Database: https://animated-volleyball-052.notion.site/26c0ceff95eb8048ad32e4a8588f44e3?v=26c0ceff95eb81d4a2aa000c99d0292b
 
 2. Create a Notion integration:
    - Go to [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations)
@@ -86,7 +81,6 @@ python LinkedIn_publisher_v2.py
 
 1. Create a new page in your Notion database
 2. Set the Status to "Scheduled"
-3. Add "LinkedIn" to Post Types
 4. Set the Schedule Date
 5. Write your post content in the LinkedIn Post field
 6. (Optional) Add images
