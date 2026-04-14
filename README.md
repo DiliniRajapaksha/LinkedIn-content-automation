@@ -21,7 +21,7 @@ Automate your LinkedIn content posting using Notion as a content management syst
 
 ### 1. Notion Setup
 
-1. Duplicate this Notion Database: https://animated-volleyball-052.notion.site/26c0ceff95eb8048ad32e4a8588f44e3?v=26c0ceff95eb81d4a2aa000c99d0292b
+1. Duplicate this Notion Database: https://botandbeyondai-templates.notion.site/26c0ceff95eb8048ad32e4a8588f44e3
 
 2. Create a Notion integration:
    - Go to [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations)
